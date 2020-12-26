@@ -4,7 +4,23 @@ html {
   padding: 0px;
 }
 
+footer {
+  margin-bottom: 0px;
+  position: fixed;
+  margin-left: -8px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  text-align: center;
+  padding: 4px;
+  font-size: 1em;
+}
+
 /* container*/
+
 .container {
   position: relative;
   max-width: 900px;
@@ -15,6 +31,7 @@ html {
   padding-right: 40px;
   padding-left: 40px;
   margin: auto;
+  margin-bottom: 50px;
   overflow-y: auto;
 }
 
@@ -23,9 +40,9 @@ html {
   font-size: 2rem;
 }
 
-.mainTitulo{
+.mainTitulo {
   font-size: 2rem;
-  padding:5px;
+  padding: 5px;
   width: 400px;
   border-radius: 5px;
   font-family: fantasy;
@@ -34,26 +51,27 @@ html {
   margin-right: auto;
 }
 
-
 /*textos*/
-.text{
+
+.text {
   text-align: justify;
 }
-.alinhar-center{
-text-align: center;
+
+.alinhar-center {
+  text-align: center;
 }
 
-.subTitulo{
-color: rgb(126, 142, 214);
+.subTitulo {
+  color: rgb(126, 142, 214);
 }
 
 /*linha*/
-.linha{
-  border-bottom:2px solid black;
+.linha {
+  border-bottom: 2px solid black;
 }
 
-
 /*ScrollBar Pagina*/
+
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
@@ -61,30 +79,32 @@ color: rgb(126, 142, 214);
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 5px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(126, 142, 214);; 
+  background: rgb(126, 142, 214);
   border-radius: 5px;
 }
 
 /* Handle on hover */
+
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(14, 14, 77);
 }
 
-
 /*alinha elementos*/
-.alinhar-elementos{
+
+.alinhar-elementos {
   display: flex;
 }
 
 /*Avatar*/
-.avatar{
+
+.avatar {
   border-radius: 20px;
   width: 100px;
-  height:100px;
+  height: 100px;
 }
